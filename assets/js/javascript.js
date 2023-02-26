@@ -1,6 +1,5 @@
 var parent=document.querySelectorAll('.mid')[0];
-var change=parent.children;
- var first=change[0];
- first.style.color="red";
- first.style.backgroundColor="green";
+var change=parent.children[0];
+    change.style.textTransform="uppercase";
+  change.innerHTML='parvez';
 
